@@ -1,2 +1,3 @@
-add_subdirectory("vcu")
-add_subdirectory("zephyr")
+add_subdirectory("drivers")
+add_subdirectory("shared")
+add_subdirectory("platform")

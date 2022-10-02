@@ -8,7 +8,8 @@ add_executable(
 target_link_libraries(
     test_runner
     unity
-    libvcu
+    shared
+    drivers
 )
 
 target_include_directories(

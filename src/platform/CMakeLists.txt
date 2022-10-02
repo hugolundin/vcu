@@ -1,0 +1,5 @@
+if (${TARGET} MATCHES "zephyr")
+    add_subdirectory("zephyr")
+else()
+    add_subdirectory("host")
+endif()
