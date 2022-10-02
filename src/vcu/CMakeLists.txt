@@ -7,3 +7,4 @@ add_library(
 )
 
 target_include_directories(libvcu PUBLIC ${PROJECT_SOURCE_DIR}/src/vcu)
+message(STATUS ${PROJECT_SOURCE_DIR})
